@@ -1,45 +1,38 @@
 ---
-import type { CollectionEntry } from 'astro:content';
-import { formatDate } from '../utils/date';
-interface Props {
-  posts: CollectionEntry<'blog'>[];
-}
+import { format } from 'date-fns';
 const { posts } = Astro.props;
+
+// Group posts by year
+const postsByYear = posts.reduce((acc, post) => {
+  const year = new Date(post.frontmatter.date).getFullYear();
+  if (!acc[year]) {
+    acc[year] = [];
+  }
+  acc[year].push(post);
+  return acc;
+}, {});
 ---
-<div class="space-y-4">
-  {posts.map((post) => (
-    <div class="group">
-      <div class="flex items-baseline text-sm text-gray-500 dark:text-gray-400 mb-1">
-        <span class="w-12">{formatDate(post.data.date)}</span>
-        <a 
-          href={`/blog/${post.slug}`}
-          class="flex-1 hover:text-gray-900 dark:hover:text-gray-100 font-mono"
-        >
-          {post.data.title}
-        </a>
-        <span class="ml-4">{post.data.views?.toLocaleString()}</span>
-      </div>
+
+<div class="space-y-8 animate-fade-in">
+  {Object.entries(postsByYear).reverse().map(([year, yearPosts]) => (
+    <div>
+      <h2 class="text-xl font-semibold mb-4 dark:text-white">{year}</h2>
+      <ul class="space-y-4">
+        {yearPosts.map((post) => (
+          <li>
+            <a href={post.url} class="group">
+              <div class="flex justify-between items-center">
+                <span class="text-lg group-hover:text-gray-600 dark:text-gray-300 dark:group-hover:text-white transition-colors">
+                  {post.frontmatter.title}
+                </span>
+                <span class="text-gray-500 dark:text-gray-400">
+                  {format(new Date(post.frontmatter.date), 'MMM d')}
+                </span>
+              </div>
+            </a>
+          </li>
+        ))}
+      </ul>
     </div>
   ))}
 </div>
-
-<head>
-  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-</head>
-
-<style>
-  * {
-    font-family: 'Inter', sans-serif;
-  }
-
-  a {
-    font-family: 'Inter', sans-serif;
-  }
-
-  .space-y-4,
-  .text-sm,
-  .text-gray-500,
-  .dark\:text-gray-400 {
-    font-family: 'Inter', sans-serif;
-  }
-</style>
