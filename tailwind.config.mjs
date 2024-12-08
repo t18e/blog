@@ -4,9 +4,9 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['Playfair Display', 'serif'],  // Changed from Inter to Playfair Display
-      },
+     fontFamily: {
+  sans: ['Outfit', 'sans-serif'],  // Note: keeping 'sans-serif' as fallback since Outfit is a sans-serif font
+},
       colors: {
         dark: '#000000',
         light: '#ffffff',
