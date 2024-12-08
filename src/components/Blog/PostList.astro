@@ -1,0 +1,39 @@
+---
+import PostDate from './PostDate.astro';
+import PostTitle from './PostTitle.astro';
+
+const { posts } = Astro.props;
+---
+
+<div class="space-y-6 animate-fade-in">
+  {posts.map((post, index) => (
+    <article 
+      class="group transform transition-all duration-200 hover:translate-x-1"
+      style={`animation-delay: ${index * 50}ms`}
+    >
+      <a href={post.url} class="flex justify-between items-baseline gap-4">
+        <div class="flex-1">
+          <PostTitle title={post.frontmatter.title} />
+        </div>
+        <div class="flex items-center space-x-4 text-gray-500 dark:text-gray-400">
+          {post.frontmatter.views && (
+            <span class="tabular-nums">
+              {new Intl.NumberFormat().format(post.frontmatter.views)}
+            </span>
+          )}
+          <PostDate date={post.frontmatter.date} />
+        </div>
+      </a>
+    </article>
+  ))}
+</div>
+</boltArtifact>
+
+The changes include:
+1. Removed the year grouping
+2. Simplified the layout to a single list
+3. Each post now shows title, views, and year in a clean horizontal layout
+4. Maintained the smooth animations and hover effects
+5. Improved spacing and alignment
+
+The posts will now appear in a simple list format with the title on the left and views/year on the right, matching the desig
