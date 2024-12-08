@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Outfit Variable', 'sans-serif'],  // Updated to use the variable font
+       sans: ['Outfit', 'sans-serif']
       },
       colors: {
         dark: '#000000',
