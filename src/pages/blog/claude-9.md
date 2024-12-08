@@ -10,4 +10,4 @@ I’m a huge advocate of Claude, but it remains relatively obscure despite its c
 
 Anthropic's recent Times Square billboards feel particularly bland and indicative of their low-effort marketing. It's slightly reminiscent of early cloud computing ads that focused on showing off their technical specifications to a broad user base without a care in the world.
 
-Even with its robust API offerings, Claude is fundamentally a consumer product and more users = more revenue. More importantly, more users means data to improve the model. Many now defunct products won on product, but lost on marketing and speed. I really hope this doesn’t happen here.
+Even with its robust API offerings, Claude is fundamentally a consumer product and more users = more revenue. More importantly, more users means data to improve the model. Many now defunct tools won on product, but lost on marketing, distribution and speed. I really hope this doesn’t happen here.
