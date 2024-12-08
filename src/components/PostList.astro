@@ -1,38 +1,18 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { formatDate } from '../utils/date';
-
 interface Props {
   posts: CollectionEntry<'blog'>[];
 }
-
 const { posts } = Astro.props;
 ---
-<style>
-  :root {
-    --font-body: 'Inter', sans-serif;
-  }
-
-  .group {
-    font-family: var(--font-body);
-  }
-
-  .flex {
-    font-family: var(--font-body);
-  }
-
-  a {
-    font-family: var(--font-body);
-  }
-</style>
-
 <div class="space-y-4">
   {posts.map((post) => (
     <div class="group">
       <div class="flex items-baseline text-sm text-gray-500 dark:text-gray-400 mb-1">
         <span class="w-12">{formatDate(post.data.date)}</span>
         <a 
-          href={`/blog/${post.slug}`}
+          href={/blog/${post.slug}}
           class="flex-1 hover:text-gray-900 dark:hover:text-gray-100 font-mono"
         >
           {post.data.title}
@@ -42,5 +22,3 @@ const { posts } = Astro.props;
     </div>
   ))}
 </div>
-
-<userStyle>Normal</userStyle>
