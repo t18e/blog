@@ -1,0 +1,56 @@
+---
+import Layout from './Layout.astro';
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={frontmatter.title}>
+  <article class="prose prose-lg dark:prose-invert mx-auto animate-fade-in">
+    <header class="mb-8 animate-slide-up">
+      <h1 class="text-3xl sm:text-4xl font-bold mb-2 dark:text-white">{frontmatter.title}</h1>
+      <div class="flex flex-wrap items-center gap-4">
+        <time datetime={frontmatter.date} class="text-sm text-gray-500 dark:text-gray-400">
+          {new Date(frontmatter.date).toLocaleDateString('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })}
+        </time>
+        {frontmatter.views && (
+          <span class="text-sm text-gray-500 dark:text-gray-400">
+            {new Intl.NumberFormat().format(frontmatter.views)} views
+          </span>
+        )}
+      </div>
+    </header>
+    <div class="mt-8 animate-slide-up [animation-delay:200ms]">
+      <slot />
+    </div>
+  </article>
+</Layout>
+
+<style>
+  article {
+    max-width: 65ch;
+    margin: 0 auto;
+  }
+  
+  :global(.prose) {
+    max-width: none;
+  }
+  
+  :global(.prose a) {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    transition: border-color 0.2s ease;
+  }
+  
+  :global(.prose a:hover) {
+    border-bottom-width: 2px;
+  }
+  
+  @media (max-width: 640px) {
+    article {
+      padding: 0 1rem;
+    }
+  }
+</style>
