@@ -8,6 +8,23 @@ interface Props {
 
 const { posts } = Astro.props;
 ---
+<style>
+  :root {
+    --font-body: 'Inter', sans-serif;
+  }
+
+  .group {
+    font-family: var(--font-body);
+  }
+
+  .flex {
+    font-family: var(--font-body);
+  }
+
+  a {
+    font-family: var(--font-body);
+  }
+</style>
 
 <div class="space-y-4">
   {posts.map((post) => (
@@ -25,3 +42,5 @@ const { posts } = Astro.props;
     </div>
   ))}
 </div>
+
+<userStyle>Normal</userStyle>
