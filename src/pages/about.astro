@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="About - Guillermo Rauch">
+  <div class="prose dark:prose-invert max-w-none">
+    <h1>About</h1>
+
+    <div class="flex items-start space-x-8">
+      <div class="flex-1">
+        <p>I'm a software engineer and CEO of Vercel. I'm originally from Lanús, Buenos Aires, Argentina. I owe much of my career to the Web and Open Source.</p>
+
+        <p>I spent my early teens advocating for and teaching people how to use Linux and later developed a passion for JavaScript and Web development.</p>
+
+        <p>After joining the MooTools core team, I got my first full-time job as a frontend engineer at 18 years old and relocated to San Francisco, CA.</p>
+
+        <h2>Technical contributions</h2>
+        <ul>
+          <li>I contributed to MooTools as part of their core team and led the development of the MooTools Forge package repository.</li>
+          <li>Created Socket.IO, which became one of the most popular JavaScript projects on GitHub</li>
+          <li>Authored Mongoose, the MongoDB ODM for Node.js</li>
+        </ul>
+      </div>
+      <img 
+        src="/avatar.jpg" 
+        alt="Profile" 
+        class="w-32 h-32 rounded-full"
+        width="128"
+        height="128"
+      />
+    </div>
+  </div>
+</Layout>
