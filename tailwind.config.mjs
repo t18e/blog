@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
      fontFamily: {
-  sans: ['Outfit', 'sans-serif'],  // Note: keeping 'sans-serif' as fallback since Outfit is a sans-serif font
+  sans: ['Libre Franklin', 'sans-serif'],
 },
       colors: {
         dark: '#000000',
