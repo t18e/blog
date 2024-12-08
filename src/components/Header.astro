@@ -1,0 +1,26 @@
+---
+import ThemeToggle from './ThemeToggle.astro';
+---
+<header class="flex items-center justify-between mb-12">
+  <a href="/" class="text-lg font-medium">
+    Guillermo Rauch
+  </a>
+  <nav class="flex items-center space-x-4">
+    <ThemeToggle />
+    <a href="/about" class="hover:text-gray-600 dark:hover:text-gray-300">About</a>
+    <a 
+      href="https://twitter.com/rauchg" 
+      class="hover:text-gray-600 dark:hover:text-gray-300"
+      target="_blank" 
+      rel="noopener noreferrer"
+    >
+      Follow me
+    </a>
+  </nav>
+</header>
+
+<style>
+  header {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+</style>
