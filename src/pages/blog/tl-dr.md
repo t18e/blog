@@ -22,7 +22,7 @@ A few things I'm learning and unlearning as a first-time-founder:
 14. If an idea takes longer than a month to validate with a _handful_ of users, no one probably wants it.
 15. Word-of-mouth is the most powerful lever. The goal is to build something users can't wait to tell others about.
 16. Be wary of big talkers with little risk appetite.
-17. Building products for high-trust markets is only worth it if you have the network or a truly pressing solution. Otherwise, you'll burn months gaining 'trust' before realising the idea was mediocre and/or undesirable.
+17. Building for high-trust markets is only worth it if you have the network advantage or a truly pressing solution. Otherwise, you'll burn months gaining 'trust' before realising the idea was mediocre and/or undesirable.
 18. Don't completely avoid working with friends, but simply choose wisely.
 19. Having a group of people you can count on makes this thing 10x easier.
 20. Having a group of people you can celebrate little wins with makes this thing 100x more worth it.
