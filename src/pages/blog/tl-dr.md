@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
 title: TL;DR
-date: 2024-09-13
+date: 2024-09-08
 ---
 
 A few things I'm learning and unlearning as a first-time-founder:
@@ -9,7 +9,7 @@ A few things I'm learning and unlearning as a first-time-founder:
 1. Ambition is good, provided there is some level of direction; even Icarus knew in which direction he was flying.
 2. Draw up best- and worst-case scenarios before pursuing anything to manage expectations early on.
 3. Anyone can start a company, not just anyone can – or wants to seriously – build products people love to use.
-4. Emotion and ego can be good motivators, but keep both in check to avoid bad decisions.5
+4. Emotion and ego can be good motivators, but keep both in check to avoid bad decisions.
 5. Read others' stories, listen to advice, and develop the required discernment and pattern recognition.
 6. Do not emulate others simply for the sake of it. Another ode to discernment.
 7. Sometimes pivot, and other times wait it out and grind out a full rep. More importantly, have conviction in whichever you choose.
