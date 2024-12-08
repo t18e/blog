@@ -4,9 +4,9 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-    fontFamily: {
-  sans: ['Outfit', 'sans-serif'],  // Note: keeping 'sans-serif' as fallback since Outfit is a sans-serif font
-},
+      fontFamily: {
+        sans: ['Outfit Variable', 'sans-serif'],  // Updated to use the variable font
+      },
       colors: {
         dark: '#000000',
         light: '#ffffff',
