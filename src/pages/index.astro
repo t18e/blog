@@ -1,12 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import PostList from '../components/PostList.astro';
-import { getCollection } from 'astro:content';
+import PostList from '../components/Blog/PostList.astro';
 
-const posts = await getCollection('blog');
-posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const posts = await Astro.glob('./blog/*.md');
+const sortedPosts = posts.sort((a, b) => 
+  new Date(b.frontmatter.date).getTime() - new Date(a.frontmatter.date).getTime()
+);
 ---
 
 <Layout title="Tiwa Adejuyigbe">
-  <PostList posts={posts} />
+  <PostList posts={sortedPosts} />
 </Layout>
