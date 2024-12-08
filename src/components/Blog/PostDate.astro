@@ -1,0 +1,11 @@
+---
+import { format } from 'date-fns';
+
+const { date } = Astro.props;
+---
+<time 
+  datetime={date} 
+  class="text-sm text-gray-500 dark:text-gray-400 tabular-nums"
+>
+  {format(new Date(date), 'yyyy')}
+</time>
