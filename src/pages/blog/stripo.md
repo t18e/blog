@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: Stripe
+title: StrIPO
 date: 2024-10-10
 ---
 
