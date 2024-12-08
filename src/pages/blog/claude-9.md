@@ -4,7 +4,7 @@ title: Claude 9
 date: 2024-11-01
 ---
 
-I've spent the last few months using Claude extensively – for everything from coding to product specs to analysis. – and recently purchased a Pro subscription. OpenAI’s ChatGPT excels at information retrieval and quick tasks, but Claude regularly demonstrates a more nuanced understanding of context and analytical thinking. Both are excellent, but serve different purposes, and I tend to use both at different times almost daily.
+I've spent the last few months using [**Claude**](https://claude.ai)  extensively – for everything from coding to product specs to analysis. – and recently purchased a Pro subscription. OpenAI’s ChatGPT excels at information retrieval and quick tasks, but Claude regularly demonstrates a more nuanced understanding of context and analytical thinking. Both are excellent, but serve different purposes, and I tend to use both at different times almost daily.
 
 I’m a huge advocate of Claude, but it remains relatively obscure despite its capabilities. Frankly, most people outside the tech bubble haven’t heard of Claude or Anthropic. Meanwhile, ChatGPT sees roughly 20 million monthly downloads.
 
