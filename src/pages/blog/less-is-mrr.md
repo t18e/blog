@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/BlogPost.astro
-title: Less Is MRR
+title: Less is MRR
 date: 2024-10-10
 ---
 
