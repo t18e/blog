@@ -1,3 +1,9 @@
+---
+layout: ../../layouts/BlogPost.astro
+title: Perplex City
+date: 2024-11-25
+---
+
 [**Perplexity AI**](https://perplexity.ai) started the year with a $500 million valuation and is closing 2024 with a $500 million round at a $9 billion valuation. Perplexity aren't just building a better search engine, but I believe they’re building what might eventually shape up to be the most defensible moat across the browser search market. 
 
 Their recent Stripe integration 'Perplexity Shopping' signals this: the possibility of inline purchases directly from search results is certainly compelling. We're about to see yet another wave of startups trying to solve previously difficult consumer problems with AI - flight & hotel deals, appointment scheduling, restaurant bookings, etc. Most of these will essentially become Perplexity wrappers, even if their APIs offer some differentiation. This isn’t inherently a bad thing, but relying on this alone would be tough. Nonetheless, Perplexity is positioning itself as the layer that sits above all of them. The $500m seems justified.
