@@ -3,16 +3,25 @@ layout: ../layouts/Layout.astro
 title: About
 ---
 
+## About
+Here’s a bit about me…
+
+* Studying: Politics @ UCL with a focus on neocolonialism, innovation policy & political economy. 
+
+* Building: Leftwrite AI as a fun way to connect with other Substack writers. Sign up to our beta.
+
+* Reading: _Why We Die_ by Venki Ramakrishnan
+
+
 ## Projects
-Here are some things I’ve worked on over the last year...
+Here are some things I’ve worked on recently...
+
+* Leftwrite AI: Self-learning writing & publishing companion built for Substack. Open beta TBD.
 
 * Brade: Plug-and-play automated accounting for the beauty service industry. Promising, but failed to validate.
   
 * Almanac: Reddit-style forum for alumni Q&As, mentorship & career networking. I built this for my alma mater.
 
-* Leftwrite AI: Self-learning writing & publishing companion built for Substack. Open beta TBD.
-
----
 
 ## Tools
 Here are some things I’ve built for myself...
@@ -21,7 +30,7 @@ Here are some things I’ve built for myself...
  
 * Lean Screen calculates my annualised screen time. LS was inspired by the GitHub commit tracker.
 
----
+
 
 ## Writing
 I publish my thoughts on Substack every week. Here are a few of my favourite posts...
@@ -34,7 +43,7 @@ I publish my thoughts on Substack every week. Here are a few of my favourite pos
 
 * **[Yeah, Write](https://shortdecades.com/p/yeah-write)**: On writing & agency in the technosphere.
 
----
+
 
 ## More Writing
 I occasionally write about startups I admire and my learnings as a first-time founder...
