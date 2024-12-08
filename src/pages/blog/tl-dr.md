@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/BlogPost.astro
 title: TL;DR
-date: 2024-13-09
+date: 2024-09-13
 ---
 
 A few things I'm learning and unlearning as a first-time-founder:
