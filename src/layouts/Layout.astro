@@ -17,7 +17,8 @@ const { title } = Astro.props;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Menlo:wght@400;700&display=swap">
+    <!-- Import Inter font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap">
   </head>
   <body class="bg-white dark:bg-black text-black dark:text-white min-h-screen">
     <div class="max-w-2xl mx-auto px-4 py-8">
@@ -31,10 +32,9 @@ const { title } = Astro.props;
 
 <style is:global>
   :root {
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-      Bitstream Vera Sans Mono, Courier New, monospace;
+    font-family: 'Inter', sans-serif;
   }
-  
+
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
