@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['Inter', 'sans-serif'],
+        sans: ['Playfair Display', 'serif'],  // Changed from Inter to Playfair Display
       },
       colors: {
         dark: '#000000',
