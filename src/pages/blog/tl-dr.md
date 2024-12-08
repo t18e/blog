@@ -16,7 +16,7 @@ A few things I'm learning and unlearning as a first-time-founder:
 8. Burning bridges isn't inevitable. Try your best to not let this happen by playing fair always.
 9. Follow your intuition, and believe that things will fall into place. Yes, another ode to conviction.
 10. You're better off being more trusting than not. This applies to most things.
-11. Door-to-door sales is a pain in the ass. High-friction, low-scale sales are rarely worth it. Not only is it tedious, it's pretty ineffective given the alternative channels at our disposal
+11. Door-to-door sales are a pain in the ass. High-friction, low-scale sales are rarely worth it. Not only are they tedious, but also pretty ineffective given the alternatives at our disposal.
 12. People tend to get naturally energised by ideas they believe in. If in doubt of their enthusiasm, there's the answer.
 13. Mind games are a waste of time, you're better off taking things at face value. See #9.
 14. If an idea takes longer than a month to validate with a _handful_ of users, no one probably wants it.
